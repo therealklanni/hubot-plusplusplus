@@ -1,13 +1,11 @@
-hubot-plusplus
-==============
+# hubot-plusplusplus
 
 Give (or take away) points from people and things, all from the comfort of your
 personal Hubot.
 
 Note: don't make changes here; make changes to [the official repository](https://github.com/hubot-scripts/hubot-plusplus) instead.
 
-API
----
+## API
 
 * `thing++` - add a point to `thing`
 * `++` - add a point to the most previously voted-on thing
@@ -36,7 +34,7 @@ robot.emit "plus-one", {
 
 Run the following command 
 
-    $ npm install hubot-plusplus
+    $ npm install hubot-plusplusplus
 
 Then to make sure the dependencies are installed:
 
@@ -45,4 +43,4 @@ Then to make sure the dependencies are installed:
 To enable the script, add a `hubot-plusplus` entry to the `external-scripts.json`
 file (you may need to create this file).
 
-    ["hubot-plusplus"]
+    ["hubot-plusplusplus"]

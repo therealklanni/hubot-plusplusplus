@@ -19,7 +19,7 @@
 #   /hubot/scores[?name=<name>][&direction=<top|botton>][&limit=<10>]
 #
 # Author:
-#   ajacksified
+#   therealklanni (originally: ajacksified)
 
 
 _ = require('underscore')
